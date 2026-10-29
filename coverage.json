@@ -1,0 +1,2823 @@
+{
+ "meta": {
+  "source": "aggregates of descriptive statistics v15 (22 Oct 2026) and the contract prototypes; 14 states in the thesis base, 10 with a contract key; the Union as one unit (DNIT register since 2001, notes with payments since 2020); paid values from Table 2 and Table 4 of the descriptive page (R$ bn, contracts linked to notes); provisional",
+  "generated": "2026-10-28",
+  "unit": "contracts",
+  "note_en": "Replace with cobertura_contratos.csv generated from the base (one row per layer, state, year and parameter: contracts with the field over contracts in the layer). When rows carry a year, the page sums them over the chosen period.",
+  "note_pt": "Substituir por cobertura_contratos.csv gerado da base (uma linha por camada, estado, ano e parâmetro: contratos com o campo sobre contratos da camada). Quando as linhas trazem ano, a página soma sobre o período escolhido."
+ },
+ "units": [
+  {
+   "layer": "state",
+   "uf": "SP",
+   "en": "São Paulo",
+   "pt": "estadual",
+   "total": 2030,
+   "nn": 13177,
+   "src": "DER register · SIGEO/Audesp notes",
+   "years": "contracts 2010-2025; notes 2010-2025",
+   "c0": 2010,
+   "c1": 2025,
+   "n0": 2010,
+   "n1": 2025,
+   "paid": 31.03,
+   "kind": "contracts"
+  },
+  {
+   "layer": "state",
+   "uf": "MG",
+   "en": "Minas Gerais",
+   "pt": "estadual",
+   "total": 1792,
+   "nn": 15466,
+   "src": "state register · notes",
+   "years": "contracts 2010-2025; notes 2010-2025",
+   "c0": 2010,
+   "c1": 2025,
+   "n0": 2010,
+   "n1": 2025,
+   "paid": 10.83,
+   "kind": "contracts"
+  },
+  {
+   "layer": "state",
+   "uf": "BA",
+   "en": "Bahia",
+   "pt": "estadual",
+   "total": 1455,
+   "src": "FIPLAN contracts and notes",
+   "years": "contracts 2010-2025; notes 2019-2025",
+   "c0": 2010,
+   "c1": 2025,
+   "n0": 2019,
+   "n1": 2025,
+   "paid": 11.29,
+   "kind": "contracts"
+  },
+  {
+   "layer": "state",
+   "uf": "SC",
+   "en": "Santa Catarina",
+   "pt": "estadual",
+   "total": 1314,
+   "years": "contracts 2010-2025; notes 2011-2025",
+   "c0": 2010,
+   "c1": 2025,
+   "n0": 2011,
+   "n1": 2025,
+   "paid": 8.98,
+   "kind": "contracts"
+  },
+  {
+   "layer": "state",
+   "uf": "PI",
+   "en": "Piauí",
+   "pt": "estadual",
+   "total": 1205,
+   "years": "contracts 2010-2025; notes 2020-2025",
+   "c0": 2010,
+   "c1": 2025,
+   "n0": 2020,
+   "n1": 2025,
+   "paid": 5.2,
+   "kind": "contracts"
+  },
+  {
+   "layer": "state",
+   "uf": "GO",
+   "en": "Goiás",
+   "pt": "estadual",
+   "total": 987,
+   "years": "contracts 2010-2025 (dates for 502); notes 2010-2025",
+   "c0": 2010,
+   "c1": 2025,
+   "cpart": true,
+   "n0": 2010,
+   "n1": 2025,
+   "paid": 13.25,
+   "kind": "contracts"
+  },
+  {
+   "layer": "state",
+   "uf": "PE",
+   "en": "Pernambuco",
+   "pt": "estadual",
+   "total": 1316,
+   "years": "contracts 2010-2025 (dates for 178); notes 2019-2025",
+   "c0": 2010,
+   "c1": 2025,
+   "cpart": true,
+   "n0": 2019,
+   "n1": 2025,
+   "paid": 5.25,
+   "kind": "contracts"
+  },
+  {
+   "layer": "state",
+   "uf": "RS",
+   "en": "Rio Grande do Sul",
+   "pt": "estadual",
+   "total": 826,
+   "years": "contracts 2010-2025 (dates for 198); notes 2012-2025 (gaps)",
+   "c0": 2010,
+   "c1": 2025,
+   "cpart": true,
+   "n0": 2012,
+   "n1": 2025,
+   "gaps": true,
+   "paid": 5.33,
+   "kind": "contracts"
+  },
+  {
+   "layer": "state",
+   "uf": "RJ",
+   "en": "Rio de Janeiro",
+   "pt": "estadual",
+   "total": 186,
+   "years": "contracts 2016-2025; notes 2016-2025",
+   "c0": 2016,
+   "c1": 2025,
+   "n0": 2016,
+   "n1": 2025,
+   "paid": 3.11,
+   "kind": "contracts"
+  },
+  {
+   "layer": "state",
+   "uf": "PR",
+   "en": "Paraná",
+   "pt": "estadual",
+   "total": 1799,
+   "src": "GMS register · notes",
+   "years": "contracts without dates in the GMS extract; notes 2010-2023",
+   "c0": null,
+   "c1": null,
+   "n0": 2010,
+   "n1": 2023,
+   "paid": 6.7,
+   "kind": "contracts"
+  },
+  {
+   "layer": "state",
+   "uf": "CE",
+   "en": "Ceará (spending tables, no contract key)",
+   "pt": "estadual, só tabelas de despesa",
+   "total": 0,
+   "years": "spending tables 2010-2025",
+   "n0": 2010,
+   "n1": 2025,
+   "paid": null,
+   "kind": "spending"
+  },
+  {
+   "layer": "state",
+   "uf": "MT",
+   "en": "Mato Grosso (spending tables, no contract key)",
+   "pt": "estadual, só tabelas de despesa",
+   "total": 0,
+   "years": "spending tables 2010-2025",
+   "n0": 2010,
+   "n1": 2025,
+   "paid": null,
+   "kind": "spending"
+  },
+  {
+   "layer": "state",
+   "uf": "MS",
+   "en": "Mato Grosso do Sul (spending tables, no contract key)",
+   "pt": "estadual, só tabelas de despesa",
+   "total": 0,
+   "years": "spending tables 2010-2025",
+   "n0": 2010,
+   "n1": 2025,
+   "paid": null,
+   "kind": "spending"
+  },
+  {
+   "layer": "state",
+   "uf": "PA",
+   "en": "Pará (spending tables, no contract key)",
+   "pt": "estadual, só tabelas de despesa",
+   "total": 0,
+   "years": "spending tables 2010-2025",
+   "n0": 2010,
+   "n1": 2025,
+   "paid": null,
+   "kind": "spending"
+  },
+  {
+   "layer": "federal",
+   "uf": "UN",
+   "en": "Union (DNIT register and notes, 27 UFs)",
+   "pt": "União (registro DNIT e notas, 27 UFs)",
+   "total": 3274,
+   "reg": 7516,
+   "src": "DNIT register · SIGA Brasil execution crossed with the contracts through the notes (transparency portal to 2020, ObrasGov from 2021)",
+   "years": "contracts 2001-2026 (DNIT register, 7,516); notes 2020-2026 linked to 3,274 contracts; SIGA Brasil execution read from 2010",
+   "c0": 2001,
+   "c1": 2026,
+   "n0": 2020,
+   "n1": 2026,
+   "nseg": [
+    {
+     "a": 2010,
+     "b": 2013,
+     "k": "none",
+     "l": "SIGA Brasil: notes without a contract number"
+    },
+    {
+     "a": 2014,
+     "b": 2019,
+     "k": "part",
+     "l": "2-16% of the committed value names a contract"
+    },
+    {
+     "a": 2020,
+     "b": 2026,
+     "k": "full",
+     "l": "linked: 37% in 2020, 82-92% from 2021"
+    }
+   ],
+   "paid": 39.8,
+   "kind": "contracts"
+  }
+ ],
+ "rows": [
+  {
+   "layer": "state",
+   "uf": "SP",
+   "param": "y_ext",
+   "status": "m",
+   "n": 2019,
+   "note": "dates and original term; 43.3% extended"
+  },
+  {
+   "layer": "state",
+   "uf": "MG",
+   "param": "y_ext",
+   "status": "m",
+   "n": 1715,
+   "note": "23.6% extended"
+  },
+  {
+   "layer": "state",
+   "uf": "BA",
+   "param": "y_ext",
+   "status": "m",
+   "n": 1455,
+   "note": "54.0% extended"
+  },
+  {
+   "layer": "state",
+   "uf": "SC",
+   "param": "y_ext",
+   "status": "m",
+   "n": 1303,
+   "note": "63.5% extended"
+  },
+  {
+   "layer": "state",
+   "uf": "RS",
+   "param": "y_ext",
+   "status": "p",
+   "n": 198,
+   "note": "dates for 198; 24.2% extended"
+  },
+  {
+   "layer": "state",
+   "uf": "PI",
+   "param": "y_ext",
+   "status": "p",
+   "n": 1199,
+   "note": "dates, original term not read"
+  },
+  {
+   "layer": "state",
+   "uf": "GO",
+   "param": "y_ext",
+   "status": "p",
+   "n": 502,
+   "note": "dates for 502; extension not read"
+  },
+  {
+   "layer": "state",
+   "uf": "PE",
+   "param": "y_ext",
+   "status": "p",
+   "n": 178,
+   "note": "dates for 178"
+  },
+  {
+   "layer": "state",
+   "uf": "RJ",
+   "param": "y_ext",
+   "status": "p",
+   "n": 162,
+   "note": "dates for 162"
+  },
+  {
+   "layer": "state",
+   "uf": "PR",
+   "param": "y_ext",
+   "status": "n",
+   "n": 0,
+   "note": "no dates in the GMS extract"
+  },
+  {
+   "layer": "state",
+   "uf": "SP",
+   "param": "y_cost",
+   "status": "m",
+   "n": null,
+   "note": "DER register: initial, current and measured value"
+  },
+  {
+   "layer": "state",
+   "uf": "MG",
+   "param": "y_cost",
+   "status": "p",
+   "n": null,
+   "note": "original value exists; current value to verify"
+  },
+  {
+   "layer": "state",
+   "uf": "BA",
+   "param": "y_cost",
+   "status": "p",
+   "n": null,
+   "note": "original value exists; current value to verify"
+  },
+  {
+   "layer": "state",
+   "uf": "SC",
+   "param": "y_cost",
+   "status": "p",
+   "n": null,
+   "note": "original value exists; current value to verify"
+  },
+  {
+   "layer": "state",
+   "uf": "RS",
+   "param": "y_cost",
+   "status": "p",
+   "n": null,
+   "note": "original value for 198; to verify"
+  },
+  {
+   "layer": "state",
+   "uf": "PI",
+   "param": "y_cost",
+   "status": "n",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "GO",
+   "param": "y_cost",
+   "status": "n",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "PE",
+   "param": "y_cost",
+   "status": "n",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "RJ",
+   "param": "y_cost",
+   "status": "n",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "PR",
+   "param": "y_cost",
+   "status": "n",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "SP",
+   "param": "y_stop",
+   "status": "m",
+   "n": null,
+   "note": "stoppage and resumption dates in the DER register"
+  },
+  {
+   "layer": "state",
+   "uf": "MG",
+   "param": "y_stop",
+   "status": "n",
+   "n": null,
+   "note": "payment gap as the proxy"
+  },
+  {
+   "layer": "state",
+   "uf": "BA",
+   "param": "y_stop",
+   "status": "n",
+   "n": null,
+   "note": "payment gap as the proxy"
+  },
+  {
+   "layer": "state",
+   "uf": "SC",
+   "param": "y_stop",
+   "status": "n",
+   "n": null,
+   "note": "payment gap as the proxy"
+  },
+  {
+   "layer": "state",
+   "uf": "RS",
+   "param": "y_stop",
+   "status": "n",
+   "n": null,
+   "note": "payment gap as the proxy"
+  },
+  {
+   "layer": "state",
+   "uf": "PI",
+   "param": "y_stop",
+   "status": "n",
+   "n": null,
+   "note": "payment gap as the proxy"
+  },
+  {
+   "layer": "state",
+   "uf": "GO",
+   "param": "y_stop",
+   "status": "n",
+   "n": null,
+   "note": "payment gap as the proxy"
+  },
+  {
+   "layer": "state",
+   "uf": "PE",
+   "param": "y_stop",
+   "status": "n",
+   "n": null,
+   "note": "payment gap as the proxy"
+  },
+  {
+   "layer": "state",
+   "uf": "RJ",
+   "param": "y_stop",
+   "status": "n",
+   "n": null,
+   "note": "payment gap as the proxy"
+  },
+  {
+   "layer": "state",
+   "uf": "PR",
+   "param": "y_stop",
+   "status": "n",
+   "n": null,
+   "note": "payment gap as the proxy"
+  },
+  {
+   "layer": "state",
+   "uf": "SP",
+   "param": "y_gap",
+   "status": "m",
+   "n": null,
+   "note": "years with payment for all 12,910 contracts; 689 gaps"
+  },
+  {
+   "layer": "state",
+   "uf": "MG",
+   "param": "y_gap",
+   "status": "m",
+   "n": null,
+   "note": "years with payment for all 12,910 contracts; 689 gaps"
+  },
+  {
+   "layer": "state",
+   "uf": "BA",
+   "param": "y_gap",
+   "status": "m",
+   "n": null,
+   "note": "years with payment for all 12,910 contracts; 689 gaps"
+  },
+  {
+   "layer": "state",
+   "uf": "SC",
+   "param": "y_gap",
+   "status": "m",
+   "n": null,
+   "note": "years with payment for all 12,910 contracts; 689 gaps"
+  },
+  {
+   "layer": "state",
+   "uf": "PI",
+   "param": "y_gap",
+   "status": "m",
+   "n": null,
+   "note": "years with payment for all 12,910 contracts; 689 gaps"
+  },
+  {
+   "layer": "state",
+   "uf": "GO",
+   "param": "y_gap",
+   "status": "m",
+   "n": null,
+   "note": "years with payment for all 12,910 contracts; 689 gaps"
+  },
+  {
+   "layer": "state",
+   "uf": "PE",
+   "param": "y_gap",
+   "status": "m",
+   "n": null,
+   "note": "years with payment for all 12,910 contracts; 689 gaps"
+  },
+  {
+   "layer": "state",
+   "uf": "RS",
+   "param": "y_gap",
+   "status": "m",
+   "n": null,
+   "note": "years with payment for all 12,910 contracts; 689 gaps"
+  },
+  {
+   "layer": "state",
+   "uf": "RJ",
+   "param": "y_gap",
+   "status": "m",
+   "n": null,
+   "note": "years with payment for all 12,910 contracts; 689 gaps"
+  },
+  {
+   "layer": "state",
+   "uf": "PR",
+   "param": "y_gap",
+   "status": "m",
+   "n": null,
+   "note": "years with payment for all 12,910 contracts; 689 gaps"
+  },
+  {
+   "layer": "state",
+   "uf": "SP",
+   "param": "y_rp",
+   "status": "m",
+   "n": 13177,
+   "note": "by note: paid in the year, next year, unpaid"
+  },
+  {
+   "layer": "state",
+   "uf": "MG",
+   "param": "y_rp",
+   "status": "m",
+   "n": 15466,
+   "note": "by note, with the month of every stage"
+  },
+  {
+   "layer": "state",
+   "uf": "PR",
+   "param": "y_rp",
+   "status": "p",
+   "n": null,
+   "note": "state-year carry-over 15.3%; per contract to verify"
+  },
+  {
+   "layer": "state",
+   "uf": "RS",
+   "param": "y_rp",
+   "status": "p",
+   "n": null,
+   "note": "state-year 14.7%; per contract to verify"
+  },
+  {
+   "layer": "state",
+   "uf": "GO",
+   "param": "y_rp",
+   "status": "p",
+   "n": null,
+   "note": "state-year 13.6%; per contract to verify"
+  },
+  {
+   "layer": "state",
+   "uf": "PE",
+   "param": "y_rp",
+   "status": "p",
+   "n": null,
+   "note": "state-year 3.0%; per contract to verify"
+  },
+  {
+   "layer": "state",
+   "uf": "RJ",
+   "param": "y_rp",
+   "status": "p",
+   "n": null,
+   "note": "state-year 3.7%; per contract to verify"
+  },
+  {
+   "layer": "state",
+   "uf": "BA",
+   "param": "y_rp",
+   "status": "n",
+   "n": null,
+   "note": "carry-over not published"
+  },
+  {
+   "layer": "state",
+   "uf": "SC",
+   "param": "y_rp",
+   "status": "n",
+   "n": null,
+   "note": "carry-over not published"
+  },
+  {
+   "layer": "state",
+   "uf": "PI",
+   "param": "y_rp",
+   "status": "n",
+   "n": null,
+   "note": "carry-over not published"
+  },
+  {
+   "layer": "state",
+   "uf": "MG",
+   "param": "y_resc",
+   "status": "m",
+   "n": 179,
+   "note": "'Rescindido' on 179 of 1,792"
+  },
+  {
+   "layer": "state",
+   "uf": "SC",
+   "param": "y_resc",
+   "status": "p",
+   "n": 52,
+   "note": "'terminated' (52) not confirmed as rescission"
+  },
+  {
+   "layer": "state",
+   "uf": "SP",
+   "param": "y_resc",
+   "status": "n",
+   "n": null,
+   "note": "category not published"
+  },
+  {
+   "layer": "state",
+   "uf": "BA",
+   "param": "y_resc",
+   "status": "n",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "PI",
+   "param": "y_resc",
+   "status": "n",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "GO",
+   "param": "y_resc",
+   "status": "n",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "PE",
+   "param": "y_resc",
+   "status": "n",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "RS",
+   "param": "y_resc",
+   "status": "n",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "RJ",
+   "param": "y_resc",
+   "status": "n",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "PR",
+   "param": "y_resc",
+   "status": "n",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "SP",
+   "param": "G01",
+   "status": "m",
+   "n": null,
+   "note": "source readable on the notes"
+  },
+  {
+   "layer": "state",
+   "uf": "SP",
+   "param": "G03",
+   "status": "m",
+   "n": null,
+   "note": "source readable on the notes"
+  },
+  {
+   "layer": "state",
+   "uf": "SP",
+   "param": "G04",
+   "status": "m",
+   "n": null,
+   "note": "derived from the channels"
+  },
+  {
+   "layer": "state",
+   "uf": "MG",
+   "param": "G01",
+   "status": "m",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "MG",
+   "param": "G03",
+   "status": "m",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "MG",
+   "param": "G04",
+   "status": "m",
+   "n": null,
+   "note": "derived from the channels"
+  },
+  {
+   "layer": "state",
+   "uf": "BA",
+   "param": "G01",
+   "status": "m",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "BA",
+   "param": "G03",
+   "status": "m",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "BA",
+   "param": "G04",
+   "status": "m",
+   "n": null,
+   "note": "derived from the channels"
+  },
+  {
+   "layer": "state",
+   "uf": "SC",
+   "param": "G01",
+   "status": "m",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "SC",
+   "param": "G03",
+   "status": "m",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "SC",
+   "param": "G04",
+   "status": "m",
+   "n": null,
+   "note": "derived from the channels"
+  },
+  {
+   "layer": "state",
+   "uf": "PI",
+   "param": "G01",
+   "status": "m",
+   "n": null,
+   "note": "earmarked money dominant"
+  },
+  {
+   "layer": "state",
+   "uf": "PI",
+   "param": "G03",
+   "status": "m",
+   "n": null,
+   "note": "earmarked money dominant"
+  },
+  {
+   "layer": "state",
+   "uf": "PI",
+   "param": "G04",
+   "status": "m",
+   "n": null,
+   "note": "derived from the channels"
+  },
+  {
+   "layer": "state",
+   "uf": "GO",
+   "param": "G01",
+   "status": "m",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "GO",
+   "param": "G03",
+   "status": "m",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "GO",
+   "param": "G04",
+   "status": "m",
+   "n": null,
+   "note": "derived from the channels"
+  },
+  {
+   "layer": "state",
+   "uf": "PE",
+   "param": "G01",
+   "status": "m",
+   "n": null,
+   "note": "earmarked money dominant"
+  },
+  {
+   "layer": "state",
+   "uf": "PE",
+   "param": "G03",
+   "status": "m",
+   "n": null,
+   "note": "earmarked money dominant"
+  },
+  {
+   "layer": "state",
+   "uf": "PE",
+   "param": "G04",
+   "status": "m",
+   "n": null,
+   "note": "derived from the channels"
+  },
+  {
+   "layer": "state",
+   "uf": "RS",
+   "param": "G01",
+   "status": "p",
+   "n": null,
+   "note": "no readable source for most notes"
+  },
+  {
+   "layer": "state",
+   "uf": "RS",
+   "param": "G03",
+   "status": "p",
+   "n": null,
+   "note": "no readable source for most notes"
+  },
+  {
+   "layer": "state",
+   "uf": "RS",
+   "param": "G04",
+   "status": "p",
+   "n": null,
+   "note": "derived from the channels"
+  },
+  {
+   "layer": "state",
+   "uf": "RJ",
+   "param": "G01",
+   "status": "p",
+   "n": null,
+   "note": "no readable source for most notes"
+  },
+  {
+   "layer": "state",
+   "uf": "RJ",
+   "param": "G03",
+   "status": "p",
+   "n": null,
+   "note": "no readable source for most notes"
+  },
+  {
+   "layer": "state",
+   "uf": "RJ",
+   "param": "G04",
+   "status": "p",
+   "n": null,
+   "note": "derived from the channels"
+  },
+  {
+   "layer": "state",
+   "uf": "PR",
+   "param": "G01",
+   "status": "p",
+   "n": null,
+   "note": "no readable source for most notes"
+  },
+  {
+   "layer": "state",
+   "uf": "PR",
+   "param": "G03",
+   "status": "p",
+   "n": null,
+   "note": "no readable source for most notes"
+  },
+  {
+   "layer": "state",
+   "uf": "PR",
+   "param": "G04",
+   "status": "p",
+   "n": null,
+   "note": "derived from the channels"
+  },
+  {
+   "layer": "state",
+   "uf": "SP",
+   "param": "G05",
+   "status": "m",
+   "n": null,
+   "note": "dummy defined for all contracts; 357 credit-paid, 184 name the loan"
+  },
+  {
+   "layer": "state",
+   "uf": "PI",
+   "param": "G05",
+   "status": "n",
+   "n": null,
+   "note": "dummy defined for all contracts; 825 credit-paid, 0 name the loan"
+  },
+  {
+   "layer": "state",
+   "uf": "BA",
+   "param": "G05",
+   "status": "m",
+   "n": null,
+   "note": "dummy defined for all contracts; 338 credit-paid, 116 name the loan"
+  },
+  {
+   "layer": "state",
+   "uf": "PR",
+   "param": "G05",
+   "status": "m",
+   "n": null,
+   "note": "dummy defined for all contracts; 148 credit-paid, 48 name the loan"
+  },
+  {
+   "layer": "state",
+   "uf": "PE",
+   "param": "G05",
+   "status": "p",
+   "n": null,
+   "note": "dummy defined for all contracts; 278 credit-paid, 7 name the loan"
+  },
+  {
+   "layer": "state",
+   "uf": "SC",
+   "param": "G05",
+   "status": "m",
+   "n": null,
+   "note": "dummy defined for all contracts; 359 credit-paid, 48 name the loan"
+  },
+  {
+   "layer": "state",
+   "uf": "MG",
+   "param": "G05",
+   "status": "p",
+   "n": null,
+   "note": "dummy defined for all contracts; 502 credit-paid, 1 name the loan"
+  },
+  {
+   "layer": "state",
+   "uf": "RS",
+   "param": "G05",
+   "status": "n",
+   "n": null,
+   "note": "dummy defined for all contracts; 209 credit-paid, 0 name the loan"
+  },
+  {
+   "layer": "state",
+   "uf": "GO",
+   "param": "G05",
+   "status": "n",
+   "n": null,
+   "note": "dummy defined for all contracts; 201 credit-paid, 0 name the loan"
+  },
+  {
+   "layer": "state",
+   "uf": "RJ",
+   "param": "G05",
+   "status": "n",
+   "n": null,
+   "note": "dummy defined for all contracts; 7 credit-paid, 0 name the loan"
+  },
+  {
+   "layer": "state",
+   "uf": "SP",
+   "param": "G02",
+   "status": "p",
+   "n": null,
+   "note": "1b instrument type to read where 1b exists"
+  },
+  {
+   "layer": "state",
+   "uf": "MG",
+   "param": "G02",
+   "status": "p",
+   "n": null,
+   "note": "1b instrument type to read where 1b exists"
+  },
+  {
+   "layer": "state",
+   "uf": "BA",
+   "param": "G02",
+   "status": "p",
+   "n": null,
+   "note": "1b instrument type to read where 1b exists"
+  },
+  {
+   "layer": "state",
+   "uf": "SC",
+   "param": "G02",
+   "status": "p",
+   "n": null,
+   "note": "1b instrument type to read where 1b exists"
+  },
+  {
+   "layer": "state",
+   "uf": "PI",
+   "param": "G02",
+   "status": "p",
+   "n": null,
+   "note": "1b instrument type to read where 1b exists"
+  },
+  {
+   "layer": "state",
+   "uf": "GO",
+   "param": "G02",
+   "status": "p",
+   "n": null,
+   "note": "1b instrument type to read where 1b exists"
+  },
+  {
+   "layer": "state",
+   "uf": "PE",
+   "param": "G02",
+   "status": "p",
+   "n": null,
+   "note": "1b instrument type to read where 1b exists"
+  },
+  {
+   "layer": "state",
+   "uf": "RS",
+   "param": "G02",
+   "status": "p",
+   "n": null,
+   "note": "1b instrument type to read where 1b exists"
+  },
+  {
+   "layer": "state",
+   "uf": "RJ",
+   "param": "G02",
+   "status": "p",
+   "n": null,
+   "note": "1b instrument type to read where 1b exists"
+  },
+  {
+   "layer": "state",
+   "uf": "PR",
+   "param": "G02",
+   "status": "p",
+   "n": null,
+   "note": "1b instrument type to read where 1b exists"
+  },
+  {
+   "layer": "state",
+   "uf": "SP",
+   "param": "G16",
+   "status": "m",
+   "n": null,
+   "note": "ARTESP: 29 lots; state payments to concessionaires"
+  },
+  {
+   "layer": "state",
+   "uf": "MG",
+   "param": "G16",
+   "status": "p",
+   "n": null,
+   "note": "federal concessions by state (ANTT); no state programme"
+  },
+  {
+   "layer": "state",
+   "uf": "GO",
+   "param": "G16",
+   "status": "p",
+   "n": null,
+   "note": "ANTT; state programme pending"
+  },
+  {
+   "layer": "state",
+   "uf": "PR",
+   "param": "G16",
+   "status": "p",
+   "n": null,
+   "note": "ANTT 9 contracts"
+  },
+  {
+   "layer": "state",
+   "uf": "RJ",
+   "param": "G16",
+   "status": "p",
+   "n": null,
+   "note": "ANTT"
+  },
+  {
+   "layer": "state",
+   "uf": "RS",
+   "param": "G16",
+   "status": "p",
+   "n": null,
+   "note": "ANTT; EGR pending"
+  },
+  {
+   "layer": "state",
+   "uf": "SC",
+   "param": "G16",
+   "status": "p",
+   "n": null,
+   "note": "ANTT"
+  },
+  {
+   "layer": "state",
+   "uf": "BA",
+   "param": "G16",
+   "status": "p",
+   "n": null,
+   "note": "ANTT 2 contracts"
+  },
+  {
+   "layer": "state",
+   "uf": "PE",
+   "param": "G16",
+   "status": "p",
+   "n": null,
+   "note": "state programme pending"
+  },
+  {
+   "layer": "state",
+   "uf": "PI",
+   "param": "G16",
+   "status": "n",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "SP",
+   "param": "G06",
+   "status": "m",
+   "n": 1509,
+   "note": "Audesp 2018-2025"
+  },
+  {
+   "layer": "state",
+   "uf": "MG",
+   "param": "G06",
+   "status": "m",
+   "n": 1444,
+   "note": "Portal de Compras"
+  },
+  {
+   "layer": "state",
+   "uf": "BA",
+   "param": "G06",
+   "status": "m",
+   "n": 1455,
+   "note": "FIPLAN"
+  },
+  {
+   "layer": "state",
+   "uf": "RS",
+   "param": "G06",
+   "status": "m",
+   "n": 193,
+   "note": "LicitaCon"
+  },
+  {
+   "layer": "state",
+   "uf": "PR",
+   "param": "G06",
+   "status": "p",
+   "n": 0,
+   "note": "GMS 2024-2025 not yet linked to payments"
+  },
+  {
+   "layer": "state",
+   "uf": "SC",
+   "param": "G06",
+   "status": "p",
+   "n": 0,
+   "note": "on the 2025 notes only"
+  },
+  {
+   "layer": "state",
+   "uf": "GO",
+   "param": "G06",
+   "status": "n",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "PE",
+   "param": "G06",
+   "status": "n",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "PI",
+   "param": "G06",
+   "status": "n",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "RJ",
+   "param": "G06",
+   "status": "n",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "SP",
+   "param": "G07",
+   "status": "p",
+   "n": 911,
+   "note": "year of the tender process"
+  },
+  {
+   "layer": "state",
+   "uf": "MG",
+   "param": "G07",
+   "status": "m",
+   "n": 1444,
+   "note": "date of the opening of the process"
+  },
+  {
+   "layer": "state",
+   "uf": "RS",
+   "param": "G07",
+   "status": "p",
+   "n": 193,
+   "note": "year of the tender"
+  },
+  {
+   "layer": "state",
+   "uf": "BA",
+   "param": "G07",
+   "status": "n",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "PR",
+   "param": "G07",
+   "status": "n",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "SC",
+   "param": "G07",
+   "status": "n",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "GO",
+   "param": "G07",
+   "status": "n",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "PE",
+   "param": "G07",
+   "status": "n",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "PI",
+   "param": "G07",
+   "status": "n",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "RJ",
+   "param": "G07",
+   "status": "n",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "SP",
+   "param": "G10",
+   "status": "p",
+   "n": null,
+   "note": "final measurement (TAM) in the DER register"
+  },
+  {
+   "layer": "state",
+   "uf": "MG",
+   "param": "G10",
+   "status": "n",
+   "n": null,
+   "note": "not read"
+  },
+  {
+   "layer": "state",
+   "uf": "BA",
+   "param": "G10",
+   "status": "n",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "SC",
+   "param": "G10",
+   "status": "n",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "PI",
+   "param": "G10",
+   "status": "n",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "GO",
+   "param": "G10",
+   "status": "n",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "PE",
+   "param": "G10",
+   "status": "n",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "RS",
+   "param": "G10",
+   "status": "n",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "RJ",
+   "param": "G10",
+   "status": "n",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "PR",
+   "param": "G10",
+   "status": "n",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "SP",
+   "param": "G15",
+   "status": "m",
+   "n": null,
+   "note": "executor from the register; DERSA outside the budget in SP"
+  },
+  {
+   "layer": "state",
+   "uf": "SP",
+   "param": "E01",
+   "status": "n",
+   "n": null,
+   "note": "amendment author not on the state notes"
+  },
+  {
+   "layer": "state",
+   "uf": "SP",
+   "param": "G17",
+   "status": "m",
+   "n": null,
+   "note": "CAPAG 2018+; DCL/RCL 2015+ in the base; RRF 2017+"
+  },
+  {
+   "layer": "state",
+   "uf": "SP",
+   "param": "G09",
+   "status": "m",
+   "n": null,
+   "note": "state-year cuts measured between years present"
+  },
+  {
+   "layer": "state",
+   "uf": "SP",
+   "param": "G18",
+   "status": "p",
+   "n": null,
+   "note": "CNT survey by highway; link to the contract km to build"
+  },
+  {
+   "layer": "state",
+   "uf": "SP",
+   "param": "ctrl_obj",
+   "status": "m",
+   "n": null,
+   "note": "class and km from the object text; 'other' block where the object does not say"
+  },
+  {
+   "layer": "state",
+   "uf": "MG",
+   "param": "G15",
+   "status": "m",
+   "n": null,
+   "note": "executor from the register; DERSA outside the budget in SP"
+  },
+  {
+   "layer": "state",
+   "uf": "MG",
+   "param": "E01",
+   "status": "n",
+   "n": null,
+   "note": "amendment author not on the state notes"
+  },
+  {
+   "layer": "state",
+   "uf": "MG",
+   "param": "G17",
+   "status": "m",
+   "n": null,
+   "note": "CAPAG 2018+; DCL/RCL 2015+ in the base; RRF 2017+"
+  },
+  {
+   "layer": "state",
+   "uf": "MG",
+   "param": "G09",
+   "status": "m",
+   "n": null,
+   "note": "state-year cuts measured between years present"
+  },
+  {
+   "layer": "state",
+   "uf": "MG",
+   "param": "G18",
+   "status": "p",
+   "n": null,
+   "note": "CNT survey by highway; link to the contract km to build"
+  },
+  {
+   "layer": "state",
+   "uf": "MG",
+   "param": "ctrl_obj",
+   "status": "m",
+   "n": null,
+   "note": "class and km from the object text; 'other' block where the object does not say"
+  },
+  {
+   "layer": "state",
+   "uf": "BA",
+   "param": "G15",
+   "status": "m",
+   "n": null,
+   "note": "executor from the register; DERSA outside the budget in SP"
+  },
+  {
+   "layer": "state",
+   "uf": "BA",
+   "param": "E01",
+   "status": "n",
+   "n": null,
+   "note": "amendment author not on the state notes"
+  },
+  {
+   "layer": "state",
+   "uf": "BA",
+   "param": "G17",
+   "status": "m",
+   "n": null,
+   "note": "CAPAG 2018+; DCL/RCL 2015+ in the base; RRF 2017+"
+  },
+  {
+   "layer": "state",
+   "uf": "BA",
+   "param": "G09",
+   "status": "m",
+   "n": null,
+   "note": "state-year cuts measured between years present"
+  },
+  {
+   "layer": "state",
+   "uf": "BA",
+   "param": "G18",
+   "status": "p",
+   "n": null,
+   "note": "CNT survey by highway; link to the contract km to build"
+  },
+  {
+   "layer": "state",
+   "uf": "BA",
+   "param": "ctrl_obj",
+   "status": "m",
+   "n": null,
+   "note": "class and km from the object text; 'other' block where the object does not say"
+  },
+  {
+   "layer": "state",
+   "uf": "SC",
+   "param": "G15",
+   "status": "m",
+   "n": null,
+   "note": "executor from the register; DERSA outside the budget in SP"
+  },
+  {
+   "layer": "state",
+   "uf": "SC",
+   "param": "E01",
+   "status": "n",
+   "n": null,
+   "note": "amendment author not on the state notes"
+  },
+  {
+   "layer": "state",
+   "uf": "SC",
+   "param": "G17",
+   "status": "m",
+   "n": null,
+   "note": "CAPAG 2018+; DCL/RCL 2015+ in the base; RRF 2017+"
+  },
+  {
+   "layer": "state",
+   "uf": "SC",
+   "param": "G09",
+   "status": "m",
+   "n": null,
+   "note": "state-year cuts measured between years present"
+  },
+  {
+   "layer": "state",
+   "uf": "SC",
+   "param": "G18",
+   "status": "p",
+   "n": null,
+   "note": "CNT survey by highway; link to the contract km to build"
+  },
+  {
+   "layer": "state",
+   "uf": "SC",
+   "param": "ctrl_obj",
+   "status": "m",
+   "n": null,
+   "note": "class and km from the object text; 'other' block where the object does not say"
+  },
+  {
+   "layer": "state",
+   "uf": "PI",
+   "param": "G15",
+   "status": "m",
+   "n": null,
+   "note": "executor from the register; DERSA outside the budget in SP"
+  },
+  {
+   "layer": "state",
+   "uf": "PI",
+   "param": "E01",
+   "status": "n",
+   "n": null,
+   "note": "amendment author not on the state notes"
+  },
+  {
+   "layer": "state",
+   "uf": "PI",
+   "param": "G17",
+   "status": "m",
+   "n": null,
+   "note": "CAPAG 2018+; DCL/RCL 2015+ in the base; RRF 2017+"
+  },
+  {
+   "layer": "state",
+   "uf": "PI",
+   "param": "G09",
+   "status": "m",
+   "n": null,
+   "note": "state-year cuts measured between years present"
+  },
+  {
+   "layer": "state",
+   "uf": "PI",
+   "param": "G18",
+   "status": "p",
+   "n": null,
+   "note": "CNT survey by highway; link to the contract km to build"
+  },
+  {
+   "layer": "state",
+   "uf": "PI",
+   "param": "ctrl_obj",
+   "status": "m",
+   "n": null,
+   "note": "class and km from the object text; 'other' block where the object does not say"
+  },
+  {
+   "layer": "state",
+   "uf": "GO",
+   "param": "G15",
+   "status": "m",
+   "n": null,
+   "note": "executor from the register; DERSA outside the budget in SP"
+  },
+  {
+   "layer": "state",
+   "uf": "GO",
+   "param": "E01",
+   "status": "n",
+   "n": null,
+   "note": "amendment author not on the state notes"
+  },
+  {
+   "layer": "state",
+   "uf": "GO",
+   "param": "G17",
+   "status": "m",
+   "n": null,
+   "note": "CAPAG 2018+; DCL/RCL 2015+ in the base; RRF 2017+"
+  },
+  {
+   "layer": "state",
+   "uf": "GO",
+   "param": "G09",
+   "status": "m",
+   "n": null,
+   "note": "state-year cuts measured between years present"
+  },
+  {
+   "layer": "state",
+   "uf": "GO",
+   "param": "G18",
+   "status": "p",
+   "n": null,
+   "note": "CNT survey by highway; link to the contract km to build"
+  },
+  {
+   "layer": "state",
+   "uf": "GO",
+   "param": "ctrl_obj",
+   "status": "m",
+   "n": null,
+   "note": "class and km from the object text; 'other' block where the object does not say"
+  },
+  {
+   "layer": "state",
+   "uf": "PE",
+   "param": "G15",
+   "status": "m",
+   "n": null,
+   "note": "executor from the register; DERSA outside the budget in SP"
+  },
+  {
+   "layer": "state",
+   "uf": "PE",
+   "param": "E01",
+   "status": "n",
+   "n": null,
+   "note": "amendment author not on the state notes"
+  },
+  {
+   "layer": "state",
+   "uf": "PE",
+   "param": "G17",
+   "status": "m",
+   "n": null,
+   "note": "CAPAG 2018+; DCL/RCL 2015+ in the base; RRF 2017+"
+  },
+  {
+   "layer": "state",
+   "uf": "PE",
+   "param": "G09",
+   "status": "m",
+   "n": null,
+   "note": "state-year cuts measured between years present"
+  },
+  {
+   "layer": "state",
+   "uf": "PE",
+   "param": "G18",
+   "status": "p",
+   "n": null,
+   "note": "CNT survey by highway; link to the contract km to build"
+  },
+  {
+   "layer": "state",
+   "uf": "PE",
+   "param": "ctrl_obj",
+   "status": "m",
+   "n": null,
+   "note": "class and km from the object text; 'other' block where the object does not say"
+  },
+  {
+   "layer": "state",
+   "uf": "RS",
+   "param": "G15",
+   "status": "m",
+   "n": null,
+   "note": "executor from the register; DERSA outside the budget in SP"
+  },
+  {
+   "layer": "state",
+   "uf": "RS",
+   "param": "E01",
+   "status": "n",
+   "n": null,
+   "note": "amendment author not on the state notes"
+  },
+  {
+   "layer": "state",
+   "uf": "RS",
+   "param": "G17",
+   "status": "m",
+   "n": null,
+   "note": "CAPAG 2018+; DCL/RCL 2015+ in the base; RRF 2017+"
+  },
+  {
+   "layer": "state",
+   "uf": "RS",
+   "param": "G09",
+   "status": "m",
+   "n": null,
+   "note": "state-year cuts measured between years present"
+  },
+  {
+   "layer": "state",
+   "uf": "RS",
+   "param": "G18",
+   "status": "p",
+   "n": null,
+   "note": "CNT survey by highway; link to the contract km to build"
+  },
+  {
+   "layer": "state",
+   "uf": "RS",
+   "param": "ctrl_obj",
+   "status": "m",
+   "n": null,
+   "note": "class and km from the object text; 'other' block where the object does not say"
+  },
+  {
+   "layer": "state",
+   "uf": "RJ",
+   "param": "G15",
+   "status": "m",
+   "n": null,
+   "note": "executor from the register; DERSA outside the budget in SP"
+  },
+  {
+   "layer": "state",
+   "uf": "RJ",
+   "param": "E01",
+   "status": "n",
+   "n": null,
+   "note": "amendment author not on the state notes"
+  },
+  {
+   "layer": "state",
+   "uf": "RJ",
+   "param": "G17",
+   "status": "m",
+   "n": null,
+   "note": "CAPAG 2018+; DCL/RCL 2015+ in the base; RRF 2017+"
+  },
+  {
+   "layer": "state",
+   "uf": "RJ",
+   "param": "G09",
+   "status": "m",
+   "n": null,
+   "note": "state-year cuts measured between years present"
+  },
+  {
+   "layer": "state",
+   "uf": "RJ",
+   "param": "G18",
+   "status": "p",
+   "n": null,
+   "note": "CNT survey by highway; link to the contract km to build"
+  },
+  {
+   "layer": "state",
+   "uf": "RJ",
+   "param": "ctrl_obj",
+   "status": "m",
+   "n": null,
+   "note": "class and km from the object text; 'other' block where the object does not say"
+  },
+  {
+   "layer": "state",
+   "uf": "PR",
+   "param": "G15",
+   "status": "m",
+   "n": null,
+   "note": "executor from the register; DERSA outside the budget in SP"
+  },
+  {
+   "layer": "state",
+   "uf": "PR",
+   "param": "E01",
+   "status": "n",
+   "n": null,
+   "note": "amendment author not on the state notes"
+  },
+  {
+   "layer": "state",
+   "uf": "PR",
+   "param": "G17",
+   "status": "m",
+   "n": null,
+   "note": "CAPAG 2018+; DCL/RCL 2015+ in the base; RRF 2017+"
+  },
+  {
+   "layer": "state",
+   "uf": "PR",
+   "param": "G09",
+   "status": "m",
+   "n": null,
+   "note": "state-year cuts measured between years present"
+  },
+  {
+   "layer": "state",
+   "uf": "PR",
+   "param": "G18",
+   "status": "p",
+   "n": null,
+   "note": "CNT survey by highway; link to the contract km to build"
+  },
+  {
+   "layer": "state",
+   "uf": "PR",
+   "param": "ctrl_obj",
+   "status": "m",
+   "n": null,
+   "note": "class and km from the object text; 'other' block where the object does not say"
+  },
+  {
+   "layer": "state",
+   "uf": "SP",
+   "param": "ctrl_value",
+   "status": "m",
+   "n": null,
+   "note": "original value in the register"
+  },
+  {
+   "layer": "state",
+   "uf": "MG",
+   "param": "ctrl_value",
+   "status": "m",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "BA",
+   "param": "ctrl_value",
+   "status": "m",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "SC",
+   "param": "ctrl_value",
+   "status": "m",
+   "n": null,
+   "note": ""
+  },
+  {
+   "layer": "state",
+   "uf": "RS",
+   "param": "ctrl_value",
+   "status": "p",
+   "n": null,
+   "note": "for 198"
+  },
+  {
+   "layer": "state",
+   "uf": "PI",
+   "param": "ctrl_value",
+   "status": "p",
+   "n": null,
+   "note": "to verify"
+  },
+  {
+   "layer": "state",
+   "uf": "GO",
+   "param": "ctrl_value",
+   "status": "p",
+   "n": null,
+   "note": "to verify"
+  },
+  {
+   "layer": "state",
+   "uf": "PE",
+   "param": "ctrl_value",
+   "status": "p",
+   "n": null,
+   "note": "to verify"
+  },
+  {
+   "layer": "state",
+   "uf": "RJ",
+   "param": "ctrl_value",
+   "status": "p",
+   "n": null,
+   "note": "to verify"
+  },
+  {
+   "layer": "state",
+   "uf": "PR",
+   "param": "ctrl_value",
+   "status": "p",
+   "n": null,
+   "note": "to verify"
+  },
+  {
+   "layer": "federal",
+   "uf": "UN",
+   "param": "y_ext",
+   "status": "m",
+   "n": 7513,
+   "note": "DNIT register: start order to current end for 7,513 since 2001 (original term to verify); with payments: current end minus planned end for 2,601"
+  },
+  {
+   "layer": "federal",
+   "uf": "UN",
+   "param": "y_cost",
+   "status": "m",
+   "n": 2598,
+   "note": "initial and current value for 2,598 with payments (readjustment apart); register values to verify"
+  },
+  {
+   "layer": "federal",
+   "uf": "UN",
+   "param": "y_stop",
+   "status": "m",
+   "n": null,
+   "note": "days stalled (ObrasGov), contracts with payments"
+  },
+  {
+   "layer": "federal",
+   "uf": "UN",
+   "param": "y_gap",
+   "status": "p",
+   "n": 2442,
+   "note": "payment span, notes from 2020 only"
+  },
+  {
+   "layer": "federal",
+   "uf": "UN",
+   "param": "y_rp",
+   "status": "m",
+   "n": 1967,
+   "note": "carry-over in the paid, per contract, notes 2020-26"
+  },
+  {
+   "layer": "federal",
+   "uf": "UN",
+   "param": "y_resc",
+   "status": "m",
+   "n": 139,
+   "note": "'RESCINDIDO' or 'CANCELADO' on 139 with payments; situation field on the whole register"
+  },
+  {
+   "layer": "federal",
+   "uf": "UN",
+   "param": "G01",
+   "status": "p",
+   "n": 3274,
+   "note": "93.6% Union budget: no channel variation; 209 transfers; no payments before 2020"
+  },
+  {
+   "layer": "federal",
+   "uf": "UN",
+   "param": "G03",
+   "status": "m",
+   "n": null,
+   "note": "free, bonds, earmarked on the notes"
+  },
+  {
+   "layer": "federal",
+   "uf": "UN",
+   "param": "G05",
+   "status": "p",
+   "n": 10,
+   "note": "10 contracts with an external-loan tranche"
+  },
+  {
+   "layer": "federal",
+   "uf": "UN",
+   "param": "G02",
+   "status": "m",
+   "n": 209,
+   "note": "agreements (1b)"
+  },
+  {
+   "layer": "federal",
+   "uf": "UN",
+   "param": "G16",
+   "status": "p",
+   "n": null,
+   "note": "ANTT concessions on the asset, by highway"
+  },
+  {
+   "layer": "federal",
+   "uf": "UN",
+   "param": "G06",
+   "status": "m",
+   "n": 2489,
+   "note": "76% of the contracts with payments carry the modality; RDC 288; register field in part"
+  },
+  {
+   "layer": "federal",
+   "uf": "UN",
+   "param": "G07",
+   "status": "n",
+   "n": 0,
+   "note": "no tender date in the federal registers"
+  },
+  {
+   "layer": "federal",
+   "uf": "UN",
+   "param": "G04",
+   "status": "m",
+   "n": null,
+   "note": "TCU; plus lender on 10"
+  },
+  {
+   "layer": "federal",
+   "uf": "UN",
+   "param": "G10",
+   "status": "m",
+   "n": null,
+   "note": "ObrasGov physical and financial execution"
+  },
+  {
+   "layer": "federal",
+   "uf": "UN",
+   "param": "G15",
+   "status": "m",
+   "n": null,
+   "note": "DNIT; state of location"
+  },
+  {
+   "layer": "federal",
+   "uf": "UN",
+   "param": "E01",
+   "status": "m",
+   "n": null,
+   "note": "amendment author on the notes 2021-2024"
+  },
+  {
+   "layer": "federal",
+   "uf": "UN",
+   "param": "G17",
+   "status": "m",
+   "n": null,
+   "note": "by state of location"
+  },
+  {
+   "layer": "federal",
+   "uf": "UN",
+   "param": "G09",
+   "status": "m",
+   "n": null,
+   "note": "Union real cut 2015; state cuts by location"
+  },
+  {
+   "layer": "federal",
+   "uf": "UN",
+   "param": "G18",
+   "status": "p",
+   "n": null,
+   "note": "CNT by highway"
+  },
+  {
+   "layer": "federal",
+   "uf": "UN",
+   "param": "ctrl_value",
+   "status": "m",
+   "n": 2598,
+   "note": "initial value for 2,598 with payments; register values to verify"
+  },
+  {
+   "layer": "federal",
+   "uf": "UN",
+   "param": "ctrl_obj",
+   "status": "m",
+   "n": null,
+   "note": "expenditure type from the object text"
+  },
+  {
+   "layer": "state",
+   "uf": "CE",
+   "param": "G17",
+   "status": "m",
+   "n": null,
+   "note": "CAPAG 2018+; DCL/RCL yearly; RRF 2017+ (state-year)"
+  },
+  {
+   "layer": "state",
+   "uf": "CE",
+   "param": "G09",
+   "status": "m",
+   "n": null,
+   "note": "state-year cuts from the spending tables"
+  },
+  {
+   "layer": "state",
+   "uf": "CE",
+   "param": "G01",
+   "status": "p",
+   "n": null,
+   "note": "channel shares at the state-year level only: no note-to-contract key"
+  },
+  {
+   "layer": "state",
+   "uf": "CE",
+   "param": "y_ext",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "CE",
+   "param": "y_stop",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "CE",
+   "param": "y_rp",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "CE",
+   "param": "y_cost",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "CE",
+   "param": "y_resc",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "CE",
+   "param": "G02",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "CE",
+   "param": "G03",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "CE",
+   "param": "G04",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "CE",
+   "param": "G05",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "CE",
+   "param": "G06",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "CE",
+   "param": "G07",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "CE",
+   "param": "G10",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "CE",
+   "param": "G15",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "CE",
+   "param": "G16",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "CE",
+   "param": "E01",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "CE",
+   "param": "ctrl_value",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "CE",
+   "param": "ctrl_obj",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MT",
+   "param": "G17",
+   "status": "m",
+   "n": null,
+   "note": "CAPAG 2018+; DCL/RCL yearly; RRF 2017+ (state-year)"
+  },
+  {
+   "layer": "state",
+   "uf": "MT",
+   "param": "G09",
+   "status": "m",
+   "n": null,
+   "note": "state-year cuts from the spending tables"
+  },
+  {
+   "layer": "state",
+   "uf": "MT",
+   "param": "G01",
+   "status": "p",
+   "n": null,
+   "note": "channel shares at the state-year level only: no note-to-contract key"
+  },
+  {
+   "layer": "state",
+   "uf": "MT",
+   "param": "y_ext",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MT",
+   "param": "y_stop",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MT",
+   "param": "y_rp",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MT",
+   "param": "y_cost",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MT",
+   "param": "y_resc",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MT",
+   "param": "G02",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MT",
+   "param": "G03",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MT",
+   "param": "G04",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MT",
+   "param": "G05",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MT",
+   "param": "G06",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MT",
+   "param": "G07",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MT",
+   "param": "G10",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MT",
+   "param": "G15",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MT",
+   "param": "G16",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MT",
+   "param": "E01",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MT",
+   "param": "ctrl_value",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MT",
+   "param": "ctrl_obj",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MS",
+   "param": "G17",
+   "status": "m",
+   "n": null,
+   "note": "CAPAG 2018+; DCL/RCL yearly; RRF 2017+ (state-year)"
+  },
+  {
+   "layer": "state",
+   "uf": "MS",
+   "param": "G09",
+   "status": "m",
+   "n": null,
+   "note": "state-year cuts from the spending tables"
+  },
+  {
+   "layer": "state",
+   "uf": "MS",
+   "param": "G01",
+   "status": "p",
+   "n": null,
+   "note": "channel shares at the state-year level only: no note-to-contract key"
+  },
+  {
+   "layer": "state",
+   "uf": "MS",
+   "param": "y_ext",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MS",
+   "param": "y_stop",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MS",
+   "param": "y_rp",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MS",
+   "param": "y_cost",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MS",
+   "param": "y_resc",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MS",
+   "param": "G02",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MS",
+   "param": "G03",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MS",
+   "param": "G04",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MS",
+   "param": "G05",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MS",
+   "param": "G06",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MS",
+   "param": "G07",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MS",
+   "param": "G10",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MS",
+   "param": "G15",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MS",
+   "param": "G16",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MS",
+   "param": "E01",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MS",
+   "param": "ctrl_value",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "MS",
+   "param": "ctrl_obj",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "PA",
+   "param": "G17",
+   "status": "m",
+   "n": null,
+   "note": "CAPAG 2018+; DCL/RCL yearly; RRF 2017+ (state-year)"
+  },
+  {
+   "layer": "state",
+   "uf": "PA",
+   "param": "G09",
+   "status": "m",
+   "n": null,
+   "note": "state-year cuts from the spending tables"
+  },
+  {
+   "layer": "state",
+   "uf": "PA",
+   "param": "G01",
+   "status": "p",
+   "n": null,
+   "note": "channel shares at the state-year level only: no note-to-contract key"
+  },
+  {
+   "layer": "state",
+   "uf": "PA",
+   "param": "y_ext",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "PA",
+   "param": "y_stop",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "PA",
+   "param": "y_rp",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "PA",
+   "param": "y_cost",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "PA",
+   "param": "y_resc",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "PA",
+   "param": "G02",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "PA",
+   "param": "G03",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "PA",
+   "param": "G04",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "PA",
+   "param": "G05",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "PA",
+   "param": "G06",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "PA",
+   "param": "G07",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "PA",
+   "param": "G10",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "PA",
+   "param": "G15",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "PA",
+   "param": "G16",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "PA",
+   "param": "E01",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "PA",
+   "param": "ctrl_value",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  },
+  {
+   "layer": "state",
+   "uf": "PA",
+   "param": "ctrl_obj",
+   "status": "n",
+   "n": null,
+   "note": "no note-to-contract key: spending tables only"
+  }
+ ]
+}
